@@ -10,7 +10,7 @@ searchable: resume.pdf
 generate: searchable
 
 all: clean generate
-	xdg-open resume.pdf
+	xdg-open resume.pdf || open resume.pdf
 
 clean:
 	rm -rf *.pdf
