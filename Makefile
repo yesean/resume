@@ -1,7 +1,7 @@
 .PHONY: generate full clean
 .DEFAULT_GOAL := all
 
-resume.pdf: resume.html
+resume.pdf: resume.html resume.css
 	wkhtmltopdf --page-size a5 --enable-local-file-access resume.html resume.pdf
 
 searchable: resume.pdf
