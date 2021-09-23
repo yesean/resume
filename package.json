@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "lite-server",
-    "build": "relaxed --build-once resume.html",
-    "display": "make all"
+    "clean": "rm -rf *.pdf *.htm",
+    "build": "relaxed --temp /tmp --build-once resume.html",
+    "build:all": "npm run clean && npm run build"
   },
   "repository": {
     "type": "git",
