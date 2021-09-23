@@ -1,6 +1,6 @@
 {
   "port": 8000,
-  "files": ["index.html", "resume.css"],
+  "files": ["resume.html", "resume.css"],
   "server": { "baseDir": "." },
   "notify": false
 }
