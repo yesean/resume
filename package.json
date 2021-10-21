@@ -4,10 +4,10 @@
   "description": "personal resume written in latex",
   "main": "index.js",
   "scripts": {
-    "dev": "lite-server",
-    "clean": "rm -rf *.pdf *.htm",
-    "build": "relaxed --temp /tmp --build-once resume.html",
-    "build:all": "npm run clean && npm run build"
+    "start": "lite-server",
+    "build": "npm run clean && npm run compile",
+    "compile": "relaxed --build-once src/resume.html && mv src/resume.pdf . && rm -rf src/*.htm",
+    "clean": "rm -rf *.pdf"
   },
   "repository": {
     "type": "git",

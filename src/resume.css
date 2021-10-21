@@ -1,6 +1,7 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   font-weight: normal;
+  font-stretch: semi-expanded;
   margin: 0;
 }
 
@@ -63,7 +64,41 @@ section h2 {
 
 .header-info {
   font-size: medium;
-  font-weight: normal;
+  font-weight: medium;
+}
+
+.header-link {
+  font-weight: 500;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  height: 20px;
+}
+
+.social-media-left {
+  justify-content: flex-start;
+}
+
+.social-media-right {
+  justify-content: flex-end;
+}
+
+.social-media > * {
+  flex: 0;
+}
+
+.social-media-icon {
+  height: 100%;
+  width: auto;
+}
+
+.social-media-icon-left {
+  margin-right: 0.25rem;
+}
+.social-media-icon-right {
+  margin-left: 0.25rem;
 }
 
 .experience,
