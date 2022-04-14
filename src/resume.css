@@ -125,6 +125,10 @@ section h2 {
   font-size: 1.05rem;
 }
 
+.experience-org {
+  flex: 0.75;
+}
+
 .school-name,
 .school-logistics {
   flex: 2;
