@@ -1,6 +1,11 @@
 {
   "port": 8000,
-  "files": ["src/resume.html", "src/resume.css"],
+  "files": [
+    "src/resume.html",
+    "src/resume.css",
+    "src/resume.js",
+    "src/data.js"
+  ],
   "server": { "baseDir": "src" },
   "startPath": "resume.html",
   "notify": false
