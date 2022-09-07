@@ -1,10 +1,15 @@
 export default {
   experience: [
     {
-      title: 'Incoming Front End Engineer Intern',
+      title: 'Front End Engineer Intern',
       organization: { name: 'Meta', href: 'https://www.metacareers.com/' },
       date: 'Jun 2022 - Sep 2022',
-      description: ['Service Efficiency and Capacity Tools'],
+      description: [
+        'Designed an <b>E2E</b> logging solution to precisely measure performance bottlenecks in UI requests',
+        'Reduced network request sizes by <b>80%</b>, by redesigning the Node <b>GraphQL schema</b>',
+        'Decreased page load times by <b>75%</b> by <b>leading the migration</b> to a new routing framework',
+        'Discovered and addressed existing performance issues in React components, improving load times and page <b>interactivity</b>',
+      ],
     },
     {
       title: 'SDE Intern',
@@ -95,10 +100,10 @@ export default {
       'Java',
       'HTML5/CSS3',
       'Haskell',
-      'Bash',
       'SQL',
+      'Bash',
     ],
-    tools: ['AWS', 'Docker', 'Firebase', 'Git', 'Neovim', 'Linux'],
-    frameworks: ['React.js', 'Node.js', 'PostgreSQL', 'MongoDB', 'Qt'],
+    frameworks: ['React.js', 'Node.js', 'Relay', 'PostgreSQL', 'MongoDB', 'Qt'],
+    tools: ['GraphQL', 'AWS', 'Docker', 'Firebase', 'Git', 'Vim', 'Linux'],
   },
 };
