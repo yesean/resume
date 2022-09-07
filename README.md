@@ -3,8 +3,7 @@
 This is my
 [up to date resume](https://github.com/yesean/resume/blob/main/resume.pdf)
 written in a fun web stack. I've used latex in the past, but I'm a front end
-dev, so why use something sucky for styling when I could use HTML/CSS/JS
-instead!
+dev, so why use something sucky for styling when I can use HTML/CSS/JS instead!
 
 ## Overview
 
