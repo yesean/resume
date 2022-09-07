@@ -9,6 +9,7 @@ export default {
         'Reduced network request sizes by <b>80%</b>, by redesigning the Node <b>GraphQL schema</b>',
         'Decreased page load times by <b>75%</b> by <b>leading the migration</b> to a new routing framework',
         'Discovered and addressed existing performance issues in React components, improving load times and page <b>interactivity</b>',
+        'Created a custom testing framework with a JSON deserializer to <b>automate</b> GraphQL object assertions',
       ],
     },
     {
@@ -63,15 +64,6 @@ export default {
         'Built <b>full stack</b> web app for storing and managing todos with user authentication and a <b>RESTful</b> Todo API',
         'Used <b>React</b> on the frontend with an emphasis on <b>Material Design</b> (Material-UI)',
         'Used <b>Node.js / Express</b> for API requests and <b>MongoDB</b> for persisting data',
-      ],
-    },
-    {
-      name: 'Generals.io Bot',
-      githubUrl: 'https://github.com/seanye24/generalsio-bot',
-      date: 'Summer 2020',
-      description: [
-        'Built <b>Node.js</b> bot to play Generals.io, a fast-paced multiplayer strategy game',
-        'Became the <b>number one</b> ranked bot in the 2020 season in 3 weeks',
       ],
     },
   ],
