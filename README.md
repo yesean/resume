@@ -1,49 +1,24 @@
 # Sean Ye's Resume
 
-## Requirements
+This is my up to date resume written in a fun web stack. I've used latex in the
+past, but I'm a front end dev, so why use something sucky for styling when I
+could use HTML/CSS/JS instead!
 
-- [`node`](https://nodejs.org/en/)/[`npm`](https://www.npmjs.com/)
-- [`wkhtmltopdf`](https://wkhtmltopdf.org/)
-- [`ocrmypdf`](https://github.com/jbarlow83/OCRmyPDF)
+## Overview
 
-This is my personal resume written in HTML/CSS and probably with JS in the
-future.
+The basic markup template is in `src/resume.html`. The styling and alignment is
+all in `src/resume.css`. The actual resume content is in `src/data.js` and
+there's a script `src/resume.js` that adds the content to the HTML template.
 
 ## Development
 
-For development, I use a live server that watches my files and serves/updates
-them in the browser as I'm editing to see my resume in real-time. To get
-started, run
-
-```sh
-npm install
-```
-
-to install the dependencies for development and run
-
-```sh
-npm run dev
-```
-
-to start the server. As you edit and save changes in the HTML and CSS files, the
-files should update in the browser as well.
+Just run `yarn start` and watch your changes appear in the browser! This starts
+a live server that watches the important files, reloading the browser on any
+change.
 
 ## Building
 
-For generating a PDF file of the resume, it's a two step process. First,
-`wkhtmltopdf` is used to render the HTML file into PDF. Then `ocrmypdf` is used
-to make the pdf searchable (useful for resume ATFs). This build process has been
-abstracted with a `Makefile`, so simply run
-
-```sh
-make generate
-```
-
-to generate a `resume.pdf` and if you want to do a clean build and open it
-after, you can run
-
-```sh
-make all
-```
-
-or just `make`.
+When you're done, run `yarn build` and a new `resume.pdf` will be created! We
+use [puppeteer](https://pptr.dev/) to view the page in a browser and convert it
+to a pdf. See [`build.js`](https://github.com/yesean/resume/blob/main/build.js)
+for more details.
