@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "lite-server",
-    "build": "npm run clean && npm run compile",
-    "compile": "relaxed --build-once src/resume.html",
-    "clean": "mv src/resume.pdf . && rm -rf src/*.htm && rm -rf *.pdf"
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +19,8 @@
   "homepage": "https://github.com/seanye24/resume#readme",
   "dependencies": {
     "lite-server": "^2.6.1",
-    "relaxedjs": "^0.2.4"
+    "puppeteer": "^17.1.1",
+    "serve": "^14.0.1"
   },
   "devDependencies": {
     "eslint": "^8.15.0"
