@@ -1,4 +1,5 @@
-import data from './data.js';
+import data from './data.yaml';
+import './resume.css';
 
 const experienceSection = document.querySelector('#experience');
 data.experience.forEach((exp) => {
