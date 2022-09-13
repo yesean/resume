@@ -4,7 +4,9 @@
   "description": "personal resume written in latex",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server",
+    "watch": "lite-server",
+    "build:dev": "MODE=dev node build.js",
+    "start": "concurrently \"npm:watch\" \"npm:build:dev\" ",
     "build": "yarn clean && node build.js",
     "clean": "rm -rf dist"
   },
@@ -20,6 +22,7 @@
   "homepage": "https://github.com/seanye24/resume#readme",
   "dependencies": {
     "@craftamap/esbuild-plugin-html": "^0.4.0",
+    "concurrently": "^7.4.0",
     "esbuild": "^0.15.7",
     "esbuild-copy-static-files": "^0.1.0",
     "esbuild-plugin-yaml": "^0.0.1",
