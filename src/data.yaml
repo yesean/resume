@@ -8,7 +8,7 @@ experience:
       - Designed an <b>E2E</b> logging solution to precisely measure performance
         bottlenecks in UI requests
       - Reduced network request sizes by <b>80%</b> by redesigning the Node
-        <b>GraphQL schema</b>
+        <b>GraphQL</b> schema
       - Decreased page load times by <b>75%</b> by <b>leading the migration</b>
         to a new routing framework
       - Discovered and addressed existing performance issues in React components
@@ -36,40 +36,38 @@ experience:
         deployment; <b>EC2</b> instances for scalability
   - title: Lead Front End Developer
     organization:
-      name: Hollr Technologies
-      href: https://www.joinhollr.com/
+      name: Hollr
+      href: https://www.instagram.com/joinhollr/
 
     date: Aug 2020 - Feb 2022
     description:
       - Developed <b>Chrome extension</b> at a startup facilitating users in
-        streamlining the sharing of products with others such as Amazon Netflix
-        Youtube
+        streamlining the sharing of products with others such as Amazon,
+        Netflix, Youtube
       - Used <b>React TypeScript</b> on the frontend and
         <b>Firebase/Firestore</b> to manage user settings and endorsements
 projects:
+  - name: QBHub
+    siteUrl: https://qbhub.io
+    githubUrl: https://github.com/yesean/qbhub-client
+    description:
+      - Developed a mobile-first, full-stack <b>React</b> application for
+        interactive question reading with automated judging and scorekeeping
+      - Designed an extensible <b>REST</b> API and PostgreSQL ORM to process
+        over 1.5K requests per day
+      - Automated usual studying patterns by scoring <b>n-gram</b> tokenized
+        question clues by relevance with <b>tf-idf</b>
   - name: Path Maze Visualizer
     siteUrl: https://www.pathmazer.com/
-    githubUrl: https://github.com/seanye24/pathmazer
-    date: Summer 2020
+    githubUrl: https://github.com/yesean/pathmazer
     description:
-      - Built <b>React</b> application to visualize different pathﬁnding and
-        maze generation algorithms
-      - Implemented 10 different algorithms including <b>Dijkstra</b> A* Search
-        Kruskal Prim etc.
-      - Utilized in a class of <b>100+</b> to help learn and build intuition on
-        algorithms
+      - Visualized complex pathfinding and minimum spanning tree algorithms with
+        an interactive <b>React</b> app
+      - Implemented 10 different algorithms including <b>Dijkstra</b>, A*,
+        Kruskal for search and maze generation
+      - Utilized by <b>100+</b> students to help conceptualize and build
+        intuition on topics in an accessible manner
 
-  - name: Todo List
-    siteUrl: https://minimaltodos.com
-    githubUrl: https://github.com/seanye24/todo
-    date: Spring 2020
-    description:
-      - Built <b>full stack</b> web app for storing and managing todos with user
-        authentication and a <b>RESTful</b> Todo API
-      - Used <b>React</b> on the frontend with an emphasis on <b>Material
-        Design</b> (Material-UI)
-      - Used <b>Node.js / Express</b> for API requests and <b>MongoDB</b> for
-        persisting data
 education:
   courses:
     - Software Engineering
@@ -101,7 +99,7 @@ skills:
     - Relay
     - PostgreSQL
     - MongoDB
-    - Qt
+    - Jest
   tools:
     - GraphQL
     - AWS

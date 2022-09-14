@@ -50,9 +50,6 @@ data.projects.forEach((proj) => {
   section
     .querySelector('.project-github-url')
     .setAttribute('href', proj.githubUrl);
-  section
-    .querySelector('.project-logistics')
-    .appendChild(document.createTextNode(proj.date));
   proj.description.forEach((desc) => {
     const child = document.createElement('li');
     child.innerHTML = desc;
