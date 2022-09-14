@@ -96,9 +96,10 @@ skills:
   frameworks:
     - React.js
     - Node.js
-    - Relay
+    - Redux
     - PostgreSQL
     - MongoDB
+    - Relay
     - Jest
   tools:
     - GraphQL
