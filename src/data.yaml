@@ -25,7 +25,7 @@ experience:
     date: Jun 2021 - Sep 2021
     description:
       - Designed and lead the development of a <b>Python</b> testing framework
-        for <b>OpenSearchs</b> (Amazon Elasticsearch) <b>k-NN</b> plugin
+        for the <b>OpenSearch</b> (Amazon Elasticsearch) <b>k-NN</b> plugin
       - <b>Automated</b> the benchmarking and detection of performance
         regressions in the plugins <b>CI/CD</b> workflow preventing potential
         production bugs and enabling faster/robust development
