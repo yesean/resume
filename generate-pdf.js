@@ -6,7 +6,7 @@ const handler = require('serve-handler');
 
 // launch static file server
 const server = http.createServer((request, response) => {
-  return handler(request, response, { public: 'src' });
+  return handler(request, response, { public: 'dist' });
 });
 
 server.listen(5000, async () => {
@@ -17,7 +17,7 @@ server.listen(5000, async () => {
 
   // open resume
   const page = await browser.newPage();
-  await page.goto('http://localhost:5000/resume.html');
+  await page.goto('http://localhost:5000');
 
   // save page as pdf
   const pdfBuffer = await page.pdf({

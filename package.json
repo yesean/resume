@@ -7,8 +7,10 @@
     "watch": "lite-server",
     "build:dev": "MODE=dev node build.js",
     "start": "concurrently --kill-others \"npm:watch\" \"npm:build:dev\" ",
-    "build": "yarn clean && node build.js",
-    "clean": "rm -rf dist"
+    "bundle": "node build.js",
+    "generate": "node generate-pdf.js",
+    "build": "yarn bundle && yarn generate",
+    "clean": "rm -rf dist resume.pdf"
   },
   "repository": {
     "type": "git",
