@@ -2,14 +2,16 @@
 
 This is my
 [up to date resume](https://github.com/yesean/resume/blob/main/resume.pdf)
-written in a fun web stack. I've used latex in the past, but I'm a front end
-dev, so why use something sucky for styling when I can use HTML/CSS/JS instead!
+written with a web stack. I've used Latex in the past, but I always forget the
+syntax and it's annoying to style, so I've decided to use more familiar tools
+instead.
 
 ## Overview
 
 The basic markup template is in `src/resume.html`. The styling and alignment is
-all in `src/resume.css`. The actual resume content is in `src/data.js` and
-there's a script `src/resume.js` that adds the content to the HTML template.
+all in `src/resume.css`. The actual resume content is in `src/data.yml` for
+readability and there's a script `src/resume.js` that adds the content to the
+HTML template.
 
 ## Development
 
@@ -19,7 +21,9 @@ change.
 
 ## Building
 
-When you're done, run `yarn build` and a new `resume.pdf` will be created! We
-use [puppeteer](https://pptr.dev/) to view the page in a browser and convert it
-to a pdf. See [`build.js`](https://github.com/yesean/resume/blob/main/build.js)
-for more details.
+When you're done, run `yarn build` and a new `resume.pdf` will be created! The
+build process uses [esbuild](https://esbuild.github.io/) for bundling and
+[puppeteer](https://pptr.dev/) for viewing the page in a browser and converting
+it to a pdf. See
+[`build.js`](https://github.com/yesean/resume/blob/main/build.js) for more
+details.
