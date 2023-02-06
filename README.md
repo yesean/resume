@@ -3,7 +3,7 @@
 This is my
 [up to date resume](https://github.com/yesean/resume/blob/main/resume.pdf)
 written with a web stack. I've used Latex in the past, but I always forget the
-syntax and it's annoying to style, so I've decided to use more familiar tools
+syntax and it's annoying to style, so I prefer using more familiar tools
 instead.
 
 ## Overview
