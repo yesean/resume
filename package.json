@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "lite-server",
     "build:dev": "MODE=dev node build.js",
-    "start": "concurrently --kill-others \"npm:watch\" \"npm:build:dev\" ",
+    "start": "concurrently --kill-others \"npm:watch\" \"nodemon --watch src --ext html,css,js,yaml --exec npm run build:dev\" ",
     "bundle": "node build.js",
     "generate": "node generate-pdf.js",
     "build": "yarn bundle && yarn generate",
@@ -29,6 +29,7 @@
     "esbuild-copy-static-files": "^0.1.0",
     "js-yaml": "^4.1.0",
     "lite-server": "^2.6.1",
+    "nodemon": "^2.0.22",
     "puppeteer": "^17.1.1",
     "serve": "^14.0.1"
   },
