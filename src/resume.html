@@ -1,109 +1,130 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <title>resume</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
-    rel="stylesheet" />
-</head>
+  <body>
+    <section class="header">
+      <div class="header-left">
+        <h2 class="header-info social-media social-media-left">
+          <img
+            class="social-media-icon social-media-icon-left"
+            src="home.png"
+          />
+          <a class="header-link" href="sye.dev">sye.dev</a>
+        </h2>
+        <h2 class="header-info social-media social-media-left">
+          <img
+            class="social-media-icon social-media-icon-left"
+            src="mail.png"
+          />
+          <a class="header-link" href="mailto:seanye24@gmail.com"
+            >seanye24@gmail.com</a
+          >
+        </h2>
+        <h2 class="header-info social-media social-media-left">
+          <img
+            class="social-media-icon social-media-icon-left"
+            src="phone.png"
+          />
+          (626) 755-8693
+        </h2>
+      </div>
+      <h1 class="header-name header-center">Sean Ye</h1>
+      <div class="header-right">
+        <h2 class="header-info social-media social-media-right">
+          <a class="header-link" href="https://www.github.com/yesean">yesean</a>
+          <img
+            class="social-media-icon social-media-icon-right"
+            src="github.png"
+          />
+        </h2>
+        <h2 class="header-info social-media social-media-right">
+          <a class="header-link" href="https://www.linkedin.com/in/yesean/"
+            >yesean</a
+          >
+          <img
+            class="social-media-icon social-media-icon-right"
+            src="linkedin.png"
+          />
+        </h2>
+      </div>
+    </section>
 
-<body>
-  <section class="header">
-    <div class="header-left">
-      <h2 class="header-info social-media social-media-left">
-        <img class="social-media-icon social-media-icon-left" src="home.png" />
-        <a class="header-link" href="https://seanye.me">seanye.me</a>
-      </h2>
-      <h2 class="header-info social-media social-media-left">
-        <img class="social-media-icon social-media-icon-left" src="mail.png" />
-        <a class="header-link" href="mailto:seanye24@gmail.com">seanye24@gmail.com</a>
-      </h2>
-      <h2 class="header-info social-media social-media-left">
-        <img class="social-media-icon social-media-icon-left" src="phone.png" />
-        (626) 755-8693
-      </h2>
-    </div>
-    <h1 class="header-name header-center">Sean Ye</h1>
-    <div class="header-right">
-      <h2 class="header-info social-media social-media-right">
-        <a class="header-link" href="https://www.github.com/yesean">yesean</a>
-        <img class="social-media-icon social-media-icon-right" src="github.png" />
-      </h2>
-      <h2 class="header-info social-media social-media-right">
-        <a class="header-link" href="https://www.linkedin.com/in/yesean/">yesean</a>
-        <img class="social-media-icon social-media-icon-right" src="linkedin.png" />
-      </h2>
-    </div>
-  </section>
-
-  <section id="experience">
-    <h2>Work Experience</h2>
-    <hr />
-    <template id="experience-section">
-      <div class="experience">
-        <div class="experience-header">
-          <h3 class="experience-pos"></h3>
-          <h3 class="experience-org">
-            <a href=""></a>
-          </h3>
-          <h3 class="experience-logistics"></h3>
+    <section id="experience">
+      <h2>Work Experience</h2>
+      <hr />
+      <template id="experience-section">
+        <div class="experience">
+          <div class="experience-header">
+            <h3 class="experience-pos"></h3>
+            <h3 class="experience-org">
+              <a href=""></a>
+            </h3>
+            <h3 class="experience-logistics"></h3>
+          </div>
+          <ul></ul>
         </div>
-        <ul></ul>
-      </div>
-    </template>
-  </section>
+      </template>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <hr />
-    <template id="projects-section">
-      <div class="project">
-        <div class="project-header">
-          <h3 class="project-name"></h3>
-          <h3 class="project-logistics">
-            <a class="project-site-url" href="">Demo</a> |
-            <a class="project-github-url" href="">GitHub</a>
-          </h3>
+    <section id="projects">
+      <h2>Projects</h2>
+      <hr />
+      <template id="projects-section">
+        <div class="project">
+          <div class="project-header">
+            <h3 class="project-name"></h3>
+            <h3 class="project-logistics">
+              <a class="project-site-url" href="">Demo</a> |
+              <a class="project-github-url" href="">GitHub</a>
+            </h3>
+          </div>
+          <ul></ul>
         </div>
-        <ul></ul>
+      </template>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <hr />
+      <div class="school">
+        <div class="school-header">
+          <h3 class="school-name">University of California, San Diego</h3>
+          <h3 class="school-location">La Jolla, CA</h3>
+          <h3 class="school-logistics">Sep 2019 - Jun 2023</h3>
+        </div>
+        <ul>
+          <li>
+            B.S. Computer Science, GPA: <b>3.92</b>, Cum Laude, ACM, Tau Beta Pi
+          </li>
+          <li class="relevant-coursework">Relevant Coursework:</li>
+        </ul>
       </div>
-    </template>
-  </section>
+    </section>
 
-  <section>
-    <h2>Education</h2>
-    <hr />
-    <div class="school">
-      <div class="school-header">
-        <h3 class="school-name">University of California, San Diego</h3>
-        <h3 class="school-location">La Jolla, CA</h3>
-        <h3 class="school-logistics">Sep 2019 - Expected Jun 2023</h3>
-      </div>
-      <ul>
-        <li>B.S. Computer Science, GPA: <b>3.9</b>, ACM, Tau Beta Pi</li>
-        <li class="relevant-coursework">Relevant Coursework:</li>
-      </ul>
-    </div>
-  </section>
+    <section id="honors">
+      <h2>Honors</h2>
+      <hr />
+    </section>
 
-  <section id="honors">
-    <h2>Honors</h2>
-    <hr />
-  </section>
-
-  <section>
-    <h2>Technical Skills</h2>
-    <hr />
-    <!-- prettier-ignore -->
-    <div class="skills"><b>Languages:</b>
+    <section>
+      <h2>Technical Skills</h2>
+      <hr />
+      <!-- prettier-ignore -->
+      <div class="skills"><b>Languages:</b>
       <b>Tools:</b>
       <b>Frameworks:</b>
     </div>
-  </section>
-</body>
-
+    </section>
+  </body>
 </html>

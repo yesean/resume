@@ -49,7 +49,7 @@ experience:
 projects:
   - name: QBHub
     siteUrl: https://qbhub.io
-    githubUrl: https://github.com/yesean/qbhub-client
+    githubUrl: https://github.com/yesean/qbhub
     description:
       - Developed a mobile-first, full-stack <b>React</b> application for
         interactive question reading with automated judging and scorekeeping
@@ -57,7 +57,7 @@ projects:
         over 1.5K requests per day
       - Automated usual studying patterns by scoring <b>n-gram</b> tokenized
         question clues by relevance with <b>tf-idf</b>
-  - name: Path Maze Visualizer
+  - name: Pathmazer
     siteUrl: https://www.pathmazer.com/
     githubUrl: https://github.com/yesean/pathmazer
     description:
@@ -90,7 +90,7 @@ skills:
     - Java
     - Hack
     - HTML5/CSS3
-    - Haskell
+    - Rust
     - SQL
     - Bash
   frameworks:
